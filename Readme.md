@@ -18,4 +18,27 @@ A full-stack task management system built as part of my Full Stack Development I
 - **Authentication**: JWT
 
 
+## ⚙️ Getting Started
+
+To run this project locally:
+
+1. **Clone the repo**
+   ```bash
+   git clone https://github.com/your-username/trackify.git
+   cd trackify
+
+2.Set up .env files
+Inside server/.env (for backend DB & JWT)
+Inside client/.env (if needed for API URLs)
+
+3.run backend
+cd server
+npm install
+npm run dev
+
+4. run Frontend
+cd client
+npm install
+npm run dev
+
 
