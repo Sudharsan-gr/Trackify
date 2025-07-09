@@ -1,0 +1,18 @@
+# Ignore node_modules in subfolders
+client/node_modules/
+server/node_modules/
+
+# Environment variables
+client/.env
+server/.env
+
+# OS and log files
+.DS_Store
+*.log
+
+# Build/dist outputs
+client/dist/
+server/dist/
+
+node_modules/
+.env

@@ -1,0 +1,84 @@
+.auth-container {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to right, #4b6cb7, #182848);
+  background-image: url(../assets/login.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.auth-form {
+  background: transparent;
+  padding: 30px;
+  
+  box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.2);
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+}
+
+.auth-form h2 {
+  margin-bottom: 20px;
+  color: #182848;
+  text-align: center;
+}
+
+.auth-form input {
+  margin-bottom: 15px;
+  padding: 10px;
+  border: none;
+  border-bottom: 1px solid black;
+  background: transparent;
+  font-size: 1rem;
+  color: rgb(0, 0, 0);
+}
+.auth-form input::placeholder{
+  color: #000000;
+}
+
+.auth-form input:focus {
+  outline: none;              /* removes blue glow */
+  border: none;               /* remove all borders */
+  border-bottom: 1px solid #000000; /* reapply only bottom border on focus */
+  background: transparent;    /* just in case */
+  color: black;
+}
+
+.auth-form button {
+  background: #4b6cb7;
+  color: white;
+  padding: 10px;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.auth-form button:hover {
+  background: #35488e;
+}
+
+.auth-error {
+  color: red;
+  font-size: 0.9rem;
+  margin-bottom: 10px;
+}
+
+h1{
+  font-family:cursive;
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    letter-spacing: 1px;
+    text-shadow:
+    0 0 5px #fff, /* Inner white glow */
+    0 0 10px #fff,
+    0 0 15px #0073e6, /* Outer blue glow */
+    0 0 20px #0073e6,
+    0 0 25px #0073e6;
+    text-align: center;
+   
+  animation: neonGlow 1.5s ease-in-out infinite alternate;
+
+}
