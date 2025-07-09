@@ -17,5 +17,5 @@ A full-stack task management system built as part of my Full Stack Development I
 - **Database**: MySQL
 - **Authentication**: JWT
 
-## 📂 Folder Structure
+
 
