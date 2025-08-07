@@ -24,7 +24,7 @@ To run this project locally:
 
 1. **Clone the repo**
    ```bash
-   git clone https://github.com/your-username/trackify.git
+   git clone https://github.com/Sudharsan-gr/trackify.git
    cd trackify
 
 2.Set up .env files
